@@ -1,40 +1,42 @@
-Colinha HTML5 e CSS
+## Colinha HTML5 e CSS
+
+#
 
     • HTML e às suas tags
 
-1.  Como definir o título e os parágrafos de um texto
-    Utilizando as tags <h1> e <p>, respectivamente
-    Como dar destaque para algumas informações do texto, deixando-as em negrito, utilizando a tag <strong>
-    Como dar ênfase para algumas informações do texto, deixando-as em itálico, utilizando a tag <em>
-    • A definir a estrutura básica do HTML
-    Com a tag DOCTYPE, definimos qual versão do HTML estamos utilizando
-    A tag <html>, que marca o conteúdo a ser renderizado no navegador
-    Dentro desta tag, podemos definir a linguagem da página, através da propriedade lang
-    Como passar as informações do encoding da nossa página para o navegador, através da tag <meta> e da propriedade charset
-    Como definir o título de uma página, através da tag <title>
-    Como separar as informações que estão sendo passadas para o navegador, utilizando a tag <head>
-    Como separar o conteúdo da página, utilizando a tag <body>
+- Como definir o título e os parágrafos de um texto
+  Utilizando as tags "<h1>" e <p>, respectivamente
+  Como dar destaque para algumas informações do texto, deixando-as em negrito, utilizando a tag <strong>
+  Como dar ênfase para algumas informações do texto, deixando-as em itálico, utilizando a tag <em>
+  • A definir a estrutura básica do HTML
+  Com a tag DOCTYPE, definimos qual versão do HTML estamos utilizando
+  A tag <html>, que marca o conteúdo a ser renderizado no navegador
+  Dentro desta tag, podemos definir a linguagem da página, através da propriedade lang
+  Como passar as informações do encoding da nossa página para o navegador, através da tag <meta> e da propriedade charset
+  Como definir o título de uma página, através da tag <title>
+  Como separar as informações que estão sendo passadas para o navegador, utilizando a tag <head>
+  Como separar o conteúdo da página, utilizando a tag <body>
 
-        • A mexer na apresentação dos textos
+       • A mexer na apresentação dos textos
 
-    No alinhamento deles (text-align)
-    No tamanho da fonte (font-size)
-    Na cor de fundo (background)
-    Na cor do texto (color)
-    CSS inline
-    Na linha onde temos a nossa tag, adicionamos a propriedade do CSS
-    A tag <style>
-    Dentro da tag, podemos colocar marcações de CSS referentes aos elementos que temos no nosso HTML
-    A apresentação do CSS com um arquivo externo
-    Como funciona o estilo em cascata do CSS
-    Como importar um arquivo externo de CSS dentro da nossa página HTML
-    Como representar cores no CSS
-    Através do nome da cor
-    Através do seu hexadecimal
-    Através do seu RGB
-    Nesta aula, começamos a mexer na apresentação dos textos, no alinhamento deles e no tamanho da fonte. Na próxima, vamos ver como fazer isso em grandes quantidades de texto e de forma muito mais organizada. Te espero lá.
+  No alinhamento deles (text-align)
+  No tamanho da fonte (font-size)
+  Na cor de fundo (background)
+  Na cor do texto (color)
+  CSS inline
+  Na linha onde temos a nossa tag, adicionamos a propriedade do CSS
+  A tag <style>
+  Dentro da tag, podemos colocar marcações de CSS referentes aos elementos que temos no nosso HTML
+  A apresentação do CSS com um arquivo externo
+  Como funciona o estilo em cascata do CSS
+  Como importar um arquivo externo de CSS dentro da nossa página HTML
+  Como representar cores no CSS
+  Através do nome da cor
+  Através do seu hexadecimal
+  Através do seu RGB
+  Nesta aula, começamos a mexer na apresentação dos textos, no alinhamento deles e no tamanho da fonte. Na próxima, vamos ver como fazer isso em grandes quantidades de texto e de forma muito mais organizada. Te espero lá.
 
-        • Estilizando Imagens
+       • Estilizando Imagens
 
 Nesta aula, aprendemos:
 
