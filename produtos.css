@@ -78,3 +78,9 @@ footer {
   background: url("bg.jpg");
   padding: 45px 0;
 }
+
+.copyright {
+  color: aliceblue;
+  font-size: 13px;
+  margin-top: 20px;
+}
