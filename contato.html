@@ -10,7 +10,7 @@
   <body>
     <header>
       <div class="caixa">
-        <h1><img src="logo.png" /></h1>
+        <h1><img src="logo.png" alt="Logo da Barbearia Alura " /></h1>
         <nav>
           <ul class="navegacao">
             <li><a href="index.html"> Home</a></li>
@@ -23,19 +23,56 @@
     <main>
       <form>
         <label for="nomeesobrenome"> Nome e Sobrenome</label>
-        <input type="text" id="nomeesobrenome" />
+        <input type="text" id="nomeesobrenome" class="input-padrao" required />
 
         <label for="email">Email</label>
-        <input type="email" id="email" />
+        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com" />
 
         <label for="telefone">Telefone</label>
-        <input type="telefone" id="telefone" />
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx" />
 
-        <input type="submit" value="Enviar formulário" />
+        <label for="mensagem">Mensagem</label>
+        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+        <fieldset>
+          <legend>Como prefere o nosso contato ?</legend>
+          <label class="checkboox" for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email" required />Email</label>
+         
+
+          <label for="radio-telefone"><input
+            type="radio"
+            name="contato"
+            value="telefone"
+            id="radio-telefone"
+          />Telefone</label>
+          
+
+          <label for="radio-whatsapp"> <input
+            type="radio"
+            name="contato"
+            value="whatsapp"
+            id="radio-whatsapp"
+            checked
+          />WhatsApp</label>
+         
+        </fieldset>
+        <div>
+        <p>Qual horário prefere ser atendido?</p>
+        <select>
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+      </div>
+        <label
+          ><input type="radio" checked />Gostaria de receber nossas novidades por
+          email?</input
+        /></label>
+
+        <input type="submit" value="Enviar formulário"  />
       </form>
     </main>
     <footer>
-      <img src="logo-branco.png" />
+      <img src="logo-branco.png" alt="Logo da Barbearia Alura" />
       <p class="copyright">&copy; Copyright Barbearia Alura 2019</p>
     </footer>
   </body>
